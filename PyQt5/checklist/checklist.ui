@@ -11,7 +11,27 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>CheckList</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+    QWidget {
+        background-color: #0a1898;
+    }
+
+    QListWidget {
+        background-color: #0f66c8;
+        margin: 10%;
+        font: 14pt;
+    }
+
+    QPushButton {
+        background-color: #0f66c8;
+        margin-left: 10%;
+        margin-right: 10%;
+        font: 14pt;
+    }
+   </string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
@@ -19,7 +39,7 @@
      <widget class="QListWidget" name="todo_listWidget"/>
     </item>
     <item row="1" column="0">
-     <widget class="QPushButton" name="toggle_all">
+     <widget class="QPushButton" name="toggle_all_button">
       <property name="text">
        <string>Toggle all</string>
       </property>
