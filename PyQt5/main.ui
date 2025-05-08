@@ -19,7 +19,7 @@
      <widget class="QListWidget" name="todo_listWidget"/>
     </item>
     <item row="1" column="0">
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="toggle_all">
       <property name="text">
        <string>Toggle all</string>
       </property>
